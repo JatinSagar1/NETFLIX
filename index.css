@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    color: azure;
+    position: absolute;
+    top: 10%;
+    font-size: 50px;
+}
+
+.boxs{
+    height: 150px;
+    width: 150px;
+    background-color: beige;
+    border-radius: 5%;
+    position: relative;
+    bottom: 10%;
+    margin: 50px;
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: azure;
+}
+
+button{
+    height: 150px;
+    width: 150px;
+    border: 5%;
+    background-color: transparent;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+}
+
+.texts{
+    color: azure;
+    font-size: 25px;
+    display: flex;
+    position: absolute;
+    bottom: 40%;
+    text-align: center;
+}
+
+.text{
+    width: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+ 
+.manager{
+    color: azure;
+    font-size: 22px;
+    position: absolute;
+    bottom: 15%;
+}
+
+.mbox{
+    height: 50px;
+    width: 300px;
+    border: 2px solid azure;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+}
+
+.image{
+    background-color: azure;
+}
+
+.manage{
+    margin-right: 10px;
+}
+
+.six2{
+    display: none;
+}
+
+.boxs:nth-child(6):hover .six1{
+    display: none;
+}
+
+.boxs:nth-child(6):hover .six2{
+    display: block;
+}
+
+img{
+    border-radius: 5%;
+}
+
+.boxs:hover{
+    outline: 4px solid azure;
+    outline-offset:-3px;
+}
+
+.boxs:nth-child(6):hover{
+    outline: none;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 0.7;
+}
+
+.mbox:hover{
+    opacity: 1;
+}
+.mbox:hover .manage{
+    opacity: 1;
+}
+
+p:hover{
+    opacity: 1;
+}
