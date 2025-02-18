@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: grey;
+    height: 100vh;
+    width: 100vw;
+}
+
+.bar{
+    height: 60px;
+    width: 100vw;
+    background-color: black ;
+    display: flex;
+}
+
+.pic{
+    height: 40px;
+    margin: 10px;
+    padding: 5px;
+    margin-left: 50px;
+}
+
+.tags , .child{
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: azure;
+    opacity: 0.7;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.netflix{
+    opacity: 1;
+}
+
+.searchbar{
+    height: 60px;
+    width: 400px;
+    display: flex;
+    justify-content: end;
+}
+
+.search{
+    height: 30px;
+    width: 30px;
+    margin: 15px;
+    background-image: url(./search-regular-24.png);
+    background-color: black;
+    cursor: pointer;
+    background-size: cover;
+    border: none;
+    opacity: 0.7;
+}
+
+.nlogo{
+    height: 30px;
+    width: 30px;
+    margin: 15px;
+    background-image: url(./bell-regular-24.png);
+    background-color: black;
+    cursor: pointer;
+    background-size: cover;
+    border: none;
+    opacity: 0.7;
+}
+
+.profile{
+    height: 30px;
+    width: 30px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    opacity: 1;
+}
+
+.plogo{
+    border-radius: 10%;
+}
+
+.updown{
+    height: 30px;
+    margin: 15px;
+    width: 44px;
+    position: absolute;
+    right: 66px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.up , .down{
+    height: 10px;
+    width: 10px;
+    display: flex;
+}
+
+.pbox{
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    background-color: black;
+    margin-top: 50px;
+    margin-right: 15px;
+    right: 66px;
+    padding: 10px;
+}
+
+.one , .two , .three , .mp{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.one>img{
+    height: 40px;
+    width: 40px;
+    border-radius: 10%;
+    margin: 5px;
+}
+
+.two>img{
+    height: 40px;
+    width: 40px;
+    border-radius: 10%;
+    margin: 5px;
+}
+
+.three>img{
+    height: 40px;
+    width: 40px;
+    border-radius: 10%;
+    margin: 5px;
+}
+
+.mp>img{
+    height: 40px;
+    width: 40px;
+    background-color: azure;
+    border-radius: 10%;
+    margin: 5px;
+}
+
+
+
+
+
+
+*:hover{
+    opacity: 1;
+}
+
