@@ -113,11 +113,15 @@ a{
     margin-right: 15px;
     right: 66px;
     padding: 10px;
-    display: none;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
 }
 
-.profile:hover .pbox{
-    display: block;
+.profile:hover .pbox,
+.pbox:hover {
+    visibility: visible;
+    opacity: 1;
 }
 
 .one , .two , .three , .four, .mp{
