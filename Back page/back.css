@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body {
+    overflow-x: hidden;
+}
+
+
 .container{
     background-color: grey;
     height: 100vh;
@@ -14,6 +19,7 @@
     height: 60px;
     width: 100vw;
     background-color: black ;
+    position: fixed;
     display: flex;
 }
 
@@ -136,6 +142,22 @@ a{
     border-radius: 10%;
     margin: 5px;
 }
+
+.bimg{
+    display: flex;
+}
+
+.bimg1{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+
 
 *:hover{
     opacity: 1;
