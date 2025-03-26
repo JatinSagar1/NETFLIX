@@ -51,7 +51,7 @@ a{
     height: 30px;
     width: 30px;
     margin: 15px;
-    background-image: url(./search-regular-24.png);
+    background-image: url(./back/\ page/\ icons/.search);
     background-color: black;
     cursor: pointer;
     background-size: cover;
@@ -63,7 +63,6 @@ a{
     height: 30px;
     width: 30px;
     margin: 15px;
-    background-image: url(./bell-regular-24.png);
     background-color: black;
     cursor: pointer;
     background-size: cover;
@@ -82,6 +81,7 @@ a{
 
 .plogo{
     border-radius: 10%;
+    z-index: 1000;
 }
 
 .updown{
@@ -105,55 +105,33 @@ a{
 }
 
 .pbox{
-    height: 300px;
+    height: 270px;
     width: 200px;
     position: absolute;
     background-color: black;
-    margin-top: 50px;
+    margin-top: 45px;
     margin-right: 15px;
     right: 66px;
     padding: 10px;
+    display: none;
 }
 
-.one , .two , .three , .mp{
+.profile:hover .pbox{
+    display: block;
+}
+
+.one , .two , .three , .four, .mp{
     display: flex;
     align-items: center;
     text-align: center;
 }
 
-.one>img{
+.one>img, .two>img, .three>img , .four>img, .mp>img{
     height: 40px;
     width: 40px;
     border-radius: 10%;
     margin: 5px;
 }
-
-.two>img{
-    height: 40px;
-    width: 40px;
-    border-radius: 10%;
-    margin: 5px;
-}
-
-.three>img{
-    height: 40px;
-    width: 40px;
-    border-radius: 10%;
-    margin: 5px;
-}
-
-.mp>img{
-    height: 40px;
-    width: 40px;
-    background-color: azure;
-    border-radius: 10%;
-    margin: 5px;
-}
-
-
-
-
-
 
 *:hover{
     opacity: 1;
