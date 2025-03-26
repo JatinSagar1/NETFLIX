@@ -125,6 +125,7 @@ p{
 
 .mbox:hover{
     opacity: 1;
+    cursor: pointer;
 }
 .mbox:hover .manage{
     opacity: 1;
@@ -132,4 +133,5 @@ p{
 
 p:hover{
     opacity: 1;
+    cursor: pointer;
 }
