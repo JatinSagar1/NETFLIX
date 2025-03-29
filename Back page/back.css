@@ -175,6 +175,78 @@ a{
     width: 100%;
 }
 
+#play{
+    height: 40px;
+    width: 120px;
+    background-color: azure;
+    position: absolute;
+    top: 550px;
+    left: 100px;
+    border-radius: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#more{
+    height: 40px;
+    width: 120px;
+    background-color: grey;
+    position: absolute;
+    top: 550px;
+    left: 250px;
+    border-radius: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#vol{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid azure;
+    position: absolute;
+    top: 550px;
+    right: 200px;
+    opacity: 0.7;
+}
+
+#vol:hover{
+    outline: 3px solid grey;
+    outline-offset:-3px;
+}
+
+#volb{
+    pointer-events: auto;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    opacity: 0;
+}
+
+#age{
+    height: 40px;
+    width: 170px;
+    background-color: rgb(104, 104, 104);
+    position: absolute;
+    top: 555px;
+    right: 0px;
+    opacity: 0.7;
+    border-top: 3px solid azure;
+    border-bottom: 3px solid azure;
+    border-left: 3px solid azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+}
+
 .contentbox{
     width: 100vw;
     height: 210px;
@@ -209,6 +281,7 @@ a{
 .cboxs:hover{
     outline: 3px solid azure;
     outline-offset:-3px;
+    cursor: pointer;
 }
 
 
