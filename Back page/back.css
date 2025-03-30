@@ -65,6 +65,23 @@ a{
     opacity: 0.7;
 }
 
+#searchinput{
+    height: 20px;
+    background-color: black;
+    color: azure;
+    top: 20px;
+    position: relative;
+
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.searchbar:hover #searchinput{
+    visibility: visible;
+    opacity: 1;
+}
+
 .nlogo{
     height: 30px;
     width: 30px;
@@ -238,8 +255,6 @@ a{
     top: 555px;
     right: 0px;
     opacity: 0.7;
-    border-top: 3px solid azure;
-    border-bottom: 3px solid azure;
     border-left: 3px solid azure;
     display: flex;
     justify-content: center;
