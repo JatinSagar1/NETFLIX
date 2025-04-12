@@ -104,6 +104,8 @@ a{
 }
 
 .plogo{
+    height: 30px;
+    width: 30px;
     border-radius: 10%;
 }
 
@@ -287,25 +289,66 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    
     position: relative;
+
     top: 20px;
-    gap: 10px;
+    padding-left: 40px;
+    padding-right: 50px;
+    gap: 20px;
 }
 
-.cboxs, .witimg{
+.cboxs{
     height: 150px;
     width: 240px;  
-    background-color: greenyellow;
 
-    border-radius: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     overflow: hidden;
+    border-radius: 2%;
 }
 
-.cboxs:hover{
+.bb{
+    height: 150px;
+    width: 240px;  
+    background-color: #222;
+    
+    position: absolute;
+    border-radius: 2%;
+    overflow: hidden;
+
+    transition: all 0.3s cubic-bezier(0.17, 0.67, 0.83, 0.67);
+    z-index: 11;
+}
+
+.witimg{
+    height: 100%;
+    width: 100%;  
+    border-radius: 2%;
+
+    transition: all 0.3s cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+
+.bb:hover{
+    height: 300px;
+    width: 300px;
+    outline: 3px solid azure;
+    outline-offset: -3px;
+    z-index: 12;
+}
+
+.bb:hover>.witimg{
+    height: 200px;
+    width: 100%;
+    z-index: 12;
+}
+
+/* .cboxs:hover{
     outline: 3px solid azure;
     outline-offset:-3px;
     cursor: pointer;
-}
+} */
 
 
 /* Footer Styling */
@@ -342,6 +385,8 @@ footer {
     font-size: 14px;
     opacity: 0.7;
 }
+
+
 
 
 
