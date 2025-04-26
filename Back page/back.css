@@ -318,7 +318,7 @@ a{
     border-radius: 2%;
     overflow: hidden;
 
-    transition: all 0.3s cubic-bezier(0.17, 0.67, 0.83, 0.67);
+    transition: all 0.1s cubic-bezier(0.17, 0.67, 0.83, 0.67);
     z-index: 11;
 }
 
@@ -327,7 +327,7 @@ a{
     width: 100%;  
     border-radius: 2%;
 
-    transition: all 0.3s cubic-bezier(0.17, 0.67, 0.83, 0.67);
+    transition: all 0.1s cubic-bezier(0.17, 0.67, 0.83, 0.67);
 }
 
 .bb:hover{
@@ -350,7 +350,30 @@ a{
     cursor: pointer;
 } */
 
+.icons{
+    height: 20px;
+    width: 40px;
+    display: flex;
+   
+}
 
+#ply{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+#ply:nth-child(4){
+    margin-left: 50px;
+}
+
+#ply:hover{
+    opacity: 1;
+}
 /* Footer Styling */
 footer {
     background: #222;
