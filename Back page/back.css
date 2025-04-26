@@ -318,8 +318,7 @@ a{
     border-radius: 2%;
     overflow: hidden;
 
-    transition: all 0.1s cubic-bezier(0.17, 0.67, 0.83, 0.67);
-    z-index: 11;
+    transition: all 0.2s cubic-bezier(0.17, 0.67, 0.83, 0.67);
 }
 
 .witimg{
@@ -327,7 +326,7 @@ a{
     width: 100%;  
     border-radius: 2%;
 
-    transition: all 0.1s cubic-bezier(0.17, 0.67, 0.83, 0.67);
+    transition: all 0.2s cubic-bezier(0.17, 0.67, 0.83, 0.67);
 }
 
 .bb:hover{
