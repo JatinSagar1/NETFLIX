@@ -161,7 +161,7 @@ a{
 }
 
 .pbox{
-    height: 270px;
+    height: 255px;
     width: 200px;
     
     position: absolute;
@@ -275,7 +275,7 @@ a{
 .contentbox{
     width: 100vw;
     height: 210px;
-    background-color: rgb(26, 25, 25);
+    background-color: #191919;
 }
 
 .headlines{
@@ -317,6 +317,7 @@ a{
     position: absolute;
     border-radius: 2%;
     overflow: hidden;
+    cursor: pointer;
 
     transition: all 0.2s cubic-bezier(0.17, 0.67, 0.83, 0.67);
 }
@@ -330,7 +331,7 @@ a{
 }
 
 .bb:hover{
-    height: 300px;
+    height: 280px;
     width: 300px;
     outline: 3px solid azure;
     outline-offset: -3px;
